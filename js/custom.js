@@ -131,44 +131,75 @@ $('.banner-slider1').slick({
     // instead of a settings object
   ]
 });
-// 9. client-testimonial one item carousel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $('.banner-slider2').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  dots:true,
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  autoplay: false,
+  dots:false,
   arrows:false,
   autoplaySpeed: 2000,
   nextArrow:'<i class="fas fa-chevron-left  next-arrow"></i>',
   prevArrow:'<i class="fas fa-chevron-right  previous-arrow"></i>',
  
-  responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-    
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-   
-      }
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
+
 });
+// 9. client-testimonial one item carousel
+
+// $('.banner-slider2').slick({
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   autoplay: true,
+//   dots:true,
+//   arrows:false,
+//   autoplaySpeed: 2000,
+//   nextArrow:'<i class="fas fa-chevron-left  next-arrow"></i>',
+//   prevArrow:'<i class="fas fa-chevron-right  previous-arrow"></i>',
+ 
+//   responsive: [
+//     {
+//       breakpoint: 992,
+//       settings: {
+    
+//       }
+//     },
+//     {
+//       breakpoint: 768,
+//       settings: {
+   
+//       }
+//     },
+//     {
+//       breakpoint: 576,
+//       settings: {
+//         slidesToShow: 1,
+//         slidesToScroll: 1,
+//         dots: false
+//       }
+//     }
+//     // You can unslick at a given breakpoint now by adding:
+//     // settings: "unslick"
+//     // instead of a settings object
+//   ]
+// });
 
 // 1. preloader
 
