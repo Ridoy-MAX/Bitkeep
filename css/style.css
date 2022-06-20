@@ -36,7 +36,16 @@ body{
 
     padding-bottom: 20px;
 }
-
+.header .container .search .from{
+    position: relative;
+}
+.header .container .search .from i {
+	position: absolute;
+	color: #fff6;
+	font-size: 25px;
+	left: 84%;
+	bottom: 3px;
+}
 .header .container .search .form-control {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	margin-left: 10px;
@@ -139,10 +148,20 @@ border-bottom: 3px solid #6034ff !important;
 .section-two{
     margin-top: 20px;
 }
-
+.section-two .container .head{
+    display: flex;
+    justify-content: space-between;
+}
 .section-two .container .head h4{
     color: rgb(224, 219, 253);
     font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+.section-two .container .head a{
+    color: rgb(128, 82, 255);
+    font-size: 13px;
     font-weight: 600;
     margin-bottom: 15px;
 
@@ -151,8 +170,8 @@ border-bottom: 3px solid #6034ff !important;
     margin: 5px;
     margin-bottom: 15px;
 }
-.section-two .container .body .banner-slider1 .item .item-one .img img{
-    width: 55px;
+.section-two .container .body .banner-slider1 .item .item-one  img{
+    width: 55px !important;
     border-radius: 100px;
 }
 .section-two .container .body .banner-slider1 .item .item-one .img {
